@@ -1123,30 +1123,32 @@ z-index: 10;
 }
 
 .sha1 {
-    width: 10vw;
+    width: 20vw;
     height: 100%;
     position: absolute;
     left: 0;
     background: #010101;
-    background: linear-gradient(90deg, var(--bg), #FFFFFF00);
+    background: linear-gradient(90deg, var(--secondary-bg), #FFFFFF00);
     z-index: 11;
+    pointer-events: none;
         
 }
 .sha2 {
-    width: 10vw;
+    width: 20vw;
     height: 100%;
     position: absolute;
     right: 0;
     background: #010101;
-    background: linear-gradient(90deg, #FFFFFF00, var(--bg));
+    background: linear-gradient(90deg, #FFFFFF00, var(--secondary-bg));
     z-index: 999;
+    pointer-events: none;
 }
-@media screen and (max-width: 1300px) {
+/* @media screen and (max-width: 1300px) {
     .sha1, .sha2 {
         display: none;  
     }
     
-}
+} */
 @media (max-width:1440px) {
 #tranding {
     padding: 7rem 0;

@@ -360,3 +360,10 @@ gsap.utils.toArray('.fline').forEach(fline => {
         scrollTrigger : fline
     })
 })
+
+let hre = window.location.href
+console.log(hre)
+
+if (hre.includes("#top")) {
+    console.log("got it");
+}
