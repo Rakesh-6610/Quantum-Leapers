@@ -62,7 +62,6 @@ learnm.addEventListener("click", function() {
         listm.style.transform = "scaleY(0)";
     }
     learn_count++;
-    console.log(learn_count)
 })
 
 
@@ -114,7 +113,6 @@ function blur_ani(index) {
         end += (6*index)
         for (let i = start; i<end; i++) {
             allElements[i].classList.add("active");
-            console.log("done")
         }
     }
     if (loadCount == 0) {
@@ -130,7 +128,6 @@ function blur_ani(index) {
                 filter: "blur(0px)",
                 y: 0,
                 duration: 0.8,
-                // delay: 1,
                 stagger: {
                     "amount" : 0.3
                 }
@@ -150,7 +147,6 @@ function blur_ani(index) {
             filter: "blur(0px)",
             y: 0,
             duration: 0.8,
-            // delay: 1,
             stagger: {
                 "amount" : 0.3
             }
@@ -162,15 +158,31 @@ function blur_ani(index) {
 }
 
 function arrow_member(amount){
+    var location = window.location.href;
+    var index_char = location.indexOf("#");
+
+    if (index_char != -1 && loadCount == 0) {
+        for (let i = 0; i<names.length; i++) {
+            if (location.indexOf(names[i]) != -1) {
+                membersCount = i;
+                start += 6*(i)
+                end += 6*(i)
+                console.log({
+                    "start" : start,
+                    "end" : end,
+                    "i" : i
+                })
+                console.log("done")
+            }
+        }
+    }
 
     achiCount = 0;
     membersCount += amount
     blur_ani(amount)
-    // blur_ani(membersCount)
+    
     maxachi = members[names[membersCount]]
-    if (maxachi != 1) {
-        arrow(0)
-    }
+    if (maxachi != 1) { arrow(0) }
 
     left[membersCount].style.opacity = 1;
     left[membersCount].style.pointerEvents = "auto";
@@ -216,7 +228,7 @@ function arrow(num) {
     }
 
 }
-arrow(0);
+if (maxachi != 1) { arrow(0) }
 
 
 
