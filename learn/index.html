@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quantum Leapers</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="./index.css">
+
+    <!-- ----font awesome links---- -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- ----google fonts---- -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+
+    <!-- ----logo part---- -->
+    <meta property="og:image" content="../images/link-img.png">
+
+
+
+    <link rel="shortcut icon" href="../images/icon/main.png">
+    <link rel="image_src" href="../images/link-img.png">
+    
+
+
+    
+
+    <meta name="author" content="Rakesh Karmaker, rakeshkarmaker0175@gmail.com">
+    <meta name='language' content='EN'>
+    <meta name="description" content="In a corner of the school, ten diverse students gather around a worn table, each deeply immersed in their studies. The scene is a harmonious blend of intellectual pursuits: some students are lost in the captivating worlds of their novels, others are meticulously tackling complex equations, and a few are puzzling over intricate geometric shapes. Meanwhile, across from them, the rhythmic clacking of a keyboard fills the air as fingers fly, crafting elegant lines of code. This dedicated group exemplifies the spirit of curiosity and collaboration, each student contributing to a vibrant mosaic of learning and creativity. Together, they represent the boundless potential of young minds when united by a common passion for knowledge and discovery.">
+    <meta name="keywords" content="group-2 school educational">
+
+
+
+
+    <meta name='og:title' content='Quantum Leapers - Grp2'>
+    <meta name='og:type' content='education'>
+    <meta name='og:image' content='../images/link-img.png'>
+    <meta name='og:site_name' content='Quantum Leapers'>
+    <meta name='og:description' content='In a corner of the school, ten diverse students gather around a worn table, immersed in their studies...'>
+</head>
+<body id="rk">
+    <div class="loading">
+        <div class="starting">
+
+            <div class="blocks">
+                <div class="block"></div>
+                <div class="block"></div>
+                <div class="block"></div>
+                <div class="block"></div>
+            </div>
+            <div class="bar">
+                <div class="load"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <header id="header">
+        <nav class="pc">
+            <!-- <h1><img src="../images/logo.jpg" alt="Group logo"> Quantum <span class="gname">Leapers</span></h1> -->
+
+            <ul>
+                <li><a href="../" class="nav_link_1" target="_blank"><div id="line1" class="nav_line"></div><span class="links">Home</span></a></li>
+                <li><a href="#top" class="nav_link_2" target="_blank"><div id="line2" class="nav_line"></div><span class="links">About us</span></a></li>
+                <div class="ca">
+                    <li class="learn-heading">
+                        <a href="#" class="nav_link_3" target="_blank" type="active"><div id="line3" class="nav_line"></div><span class="links">Learn</span></a>
+                    </li>
+                    <li class="cat">
+                        <ul class="cat_list">
+                            <li>
+                                <a href="#" class="learn" target="_blank">Python</a>
+                            </li>
+                        </ul>
+                    </li>
+                </div>
+                <li><a href="../members/" class="nav_link_4" target="_blank"><div id="line4" class="nav_line"></div><span class="links">Members</span></a></li>
+            </ul>
+        </nav>
+
+        <nav class="mobile">
+            <div class="ope" title="navbar" onclick="nav_open()"><i class="fa-solid fa-bars"></i></div>
+            <ul class="mobile_nav">
+                <li class="clo" onclick="nav_close()"><i class="fa-solid fa-xmark"></i> <span>Close</span></li>
+                <li class="nav_m"><a href="../" class="links_m" target="_blank">Home</a><i class="fa-solid fa-arrow-right"></i></li>
+                <li class="nav_m"><a href="#top" class="links_m" target="_blank">About us</a><i class="fa-solid fa-arrow-right"></i></li>
+                <li class="nav_m"><a href="../members/" class="links_m" target="_blank">Members</a><i class="fa-solid fa-arrow-right"></i></li>
+                <div class="cam">
+                    <li class="nav_m"><a href="#" class="links_m" target="_blank">Learn</a><i class="fa-solid fa-arrow-right"></i></li>
+                    <li class="cat_m">
+                        <ul class="cat_list_m" style="position: relative;">
+                            <li>
+                                <a href="#" class="learn" target="_blank">Python</a>
+                            </li>
+                        </ul>
+                    </li>
+                </div>
+
+                <li class="nav_s">
+                    <h2>Social Media</h2>
+                    <div class="sline"></div>
+                    <div class="ss">
+                        <a target="_blank" href="https://github.com/Rakesh-6610" class="s"><i class="fa-brands fa-github"></i></a>
+                        <a target="_blank" href="https://www.facebook.com/profile.php?id=61561704838135" class="s"><i class="fa-brands fa-facebook"></i></a>
+                        <a target="_blank" href="https://www.youtube.com/@QuantumLeapers-Grp2" class="s"><i class="fa-brands fa-youtube"></i></i></a>   
+                    </div>
+                </li>
+            </ul>
+            <h1><img src="../images/rk.jpg" alt="Rakesh's logo"><span class="n">Quantum <span class="gname">Leapers</span></span></h1>
+        </nav>
+    </header>
+
+
+
+
+
+
+
+    <main id="main">
+
+        <aside class="total-content">
+            <ul class="top-total">
+                <li class="heading">
+                    <h2>Quick access</h2>
+                </li>
+                <li>
+                    <a class="intro active" onclick="page(0)" id="introduction">Introduction</a>
+                </li>
+
+                <li>
+                    <h3>Python</h3>
+                </li>
+
+                <li>
+                    <a class="py-getting-started" onclick="page(1)">Getting Started</a>
+                </li>
+            </ul>
+        </aside>
+
+
+        <section class="main">
+            <section class="page active">
+                <h1 id="introduction-description">Insane Learning Experience</h1>
+
+                <img class="doc-image heading-image" src="../images/heading-image.jpg" alt="An environmental vector art to represent the environmental benefits of our services">
+
+                <article class="dis">
+                    
+                    <p>Our friendly user interface makes it easy for you to learn any type of topic despite of your age and wether you have any prior knowledge or not.</p>
+
+                    <p>Quantum Leapers is more than just an educational platform. It provides an immersive learning experience that combines the best of both worlds: academic rigor and entertainment. Our platform is designed to make learning fun and engaging, while also providing a comprehensive education that can transform your life.</p>
+
+                    <h2>Method</h2>
+                    
+                    <p>We provide different methods for you in order to teach people as much as possible and continuously try to add more methods.</p>
+
+
+                    <section class="item-block">
+
+                        <div class="titles">
+                            <a class="text-based-heading" onclick="sec(0)" style="background-color: #ffffff44;">Text Based</a>
+                            <a class="video-based-heading" onclick="sec(1)">Video Based</a>
+                        </div>
+                        
+                        <div class="text-based section-block" id="introduction-documentation">
+                            <h2>Documentation</h2>
+                            
+                            <p>
+                                Documentation is a cornerstone of learning, offering clarity and detail essential for understanding complex concepts. It breaks down topics into manageable sections with step-by-step explanations, making it ideal for both beginners and advanced learners.
+                            </p>
+                            
+                            <p>
+                                Documentation provides clarity and detail that is essential for deep understanding. It breaks down topics into manageable sections, offering step-by-step explanations and thorough coverage of each aspect. Whether you’re a beginner starting from scratch or an advanced learner looking to refine your knowledge, documentation offers the detailed insights you need to grasp intricate ideas.
+                            </p>
+                            
+                            <p>
+                                Documentation is a crucial component of our learning platform because it offers detailed explanations, supports self-paced learning, provides an easy reference, and encourages independent education. We are committed to delivering high-quality resources that help you achieve your learning goals efficiently and effectively.
+                            </p>
+                        </div>
+
+                        
+                        <div class="video-based section-block" id="introduction-video" style="display: none;">
+                            <h2>Videos</h2>
+                            
+                            <p>
+                                In order to teach as much people as possible we have brought our topics into video format in our official channel <a href="https://www.youtube.com/@QuantumLeapers-Grp2" class="text-link">Quantum Leapers</a>.
+                            </p>
+                            
+                            <img class="doc-image" src="../images/video-heading.jpg" alt="An image to showcase the importance of videos">
+                            
+                            <p>
+                                In the digital age, videos have become a powerful medium for learning and skill development. Their dynamic and engaging nature makes them an essential part of our educational resources. Here’s why we’ve chosen to include videos on our website.
+                            </p>
+                            
+                            <p>
+                                One of the key benefits is flexibility. You can watch videos anytime, pausing and replaying as needed to learn at your own pace. This ensures a personalized learning experience that adapts to your needs.
+                            </p>
+                            
+                            <p>
+                                Videos are an essential part of our learning platform because they cater to visual and auditory learners, provide practical demonstrations, offer flexibility, engage and motivate, and bring diverse perspectives. We are committed to delivering high-quality video content that enhances your learning journey and helps you achieve your educational goals effectively.
+                            </p>
+                            
+                        </div>
+                    </section>
+    
+                    <div class="next-link" onclick="page(1)">Getting started with python <i class="fa-solid fa-arrow-right"></i></div>
+
+                </article>
+            </section>
+
+            <section class="page">
+                <h1 id="py-getting-started">Python - Programming Language</h1>
+
+                <p>
+                    Python is a versatile, high-level programming language known for its readability. It supports multiple paradigms and is widely used in web development, data science, and automation. Python's extensive libraries make it popular for diverse applications.
+                </p>
+
+                <iframe class="doc-image" id="py-video" style="aspect-ratio: 16/9;" src="https://www.youtube.com/embed/qCQiOryAI-Y?si=UAM-cTuR4LHMZZfI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                <p>
+                    You can get an idea about what python is and how it works by watching this video.
+                </p>
+
+                <h2 id="what-is">What is a Programming Language?</h2>
+
+                <p>
+                    A programming language is a formal language comprising a set of instructions that produce various kinds of output. Programmers use programming languages to create software programs, scripts, and other sets of instructions for computers to execute. Examples include <a href="https://en.wikipedia.org/wiki/C_(programming_language)">C</a>, <a href="https://en.wikipedia.org/wiki/Java_(programming_language)">Java</a>, and <a href="https://en.wikipedia.org/wiki/C++">C++</a>. Programming languages enable humans to communicate with machines efficiently and effectively, making it possible to implement algorithms and solve complex problems.
+                </p>
+
+                <h2 id="why-py">Why Python?</h2>
+
+                <p>
+                    Python is a popular choice for developers due to its readability and simplicity, making it an excellent language for beginners. Its clear syntax allows new programmers to focus on learning concepts rather than complicated code. Python also has a large community that provides extensive resources and libraries.
+                </p>
+
+                <p>
+                    Additionally, Python's versatility makes it suitable for web development, automation, data analysis, and artificial intelligence. Its robust standard library and third-party packages enable developers to tackle diverse projects. Python's compatibility with major platforms and its ability to integrate with other languages and tools make it valuable for both small-scale and large-scale applications.
+                </p>
+
+                <h2 id="py-use">Usage of Python</h2>
+
+                <p>
+                    Python is a versatile and powerful programming language that can be used in a variety of applications. It is widely used in web development, data science, and automation.
+                </p>
+
+                <ol>
+                    <li>
+                        <h3 id="py-web">Web Development</h3>
+                        <p>
+                            Python is popular in web development for its simplicity. Frameworks like <a href="https://www.djangoproject.com/">Django</a> and <a href="https://flask.palletsprojects.com/en/3.0.x/">Flask</a> help build robust web apps quickly. Its clear syntax and libraries make it ideal for dynamic websites.
+                        </p>
+                    </li>
+
+                    <li>
+                        <h3 id="py-data">Data Science</h3>
+                        <p>
+                            Python is popular in data science for its simplicity. Libraries like Pandas, NumPy, and SciPy facilitate data manipulation and analysis. Its clear syntax and powerful tools make it ideal for data-driven tasks.
+                        </p>
+                    </li>
+
+                    <li>
+                        <h3 id="py-auto">Automation</h3>
+                        <p>
+                            Python is popular for automation due to its simplicity. Libraries like Selenium and PyAutoGUI facilitate task automation. Its clear syntax and versatile tools make it ideal for streamlining repetitive processes. 
+                        </p>
+                    </li>
+
+                    <li>
+                        <h3 id="py-game">Game Development</h3>
+                        <p>
+                            Python is popular in game development for its simplicity. Libraries like Pygame facilitate game creation. Its clear syntax and versatile tools make it ideal for prototyping and developing games quickly.
+                        </p>
+                    </li>
+                </ol>
+
+
+                <div class="next-link" onclick="page(2)">Variables and Data Types <i class="fa-solid fa-arrow-right"></i></div>
+
+            </section>
+
+            <section class="page">
+                <h2>Variables and Data Types</h2>
+
+                <p>
+                    Variables store data values, and data types define the kind of data (e.g., integers, floats, strings, booleans) a variable holds. Understanding these concepts is essential for performing operations and making decisions in your code.
+                </p>
+
+                <img src="../images/ram.jpg" alt="A picture of a computer and connecting to a ram" class="doc-image">
+
+                <p>
+                    
+                </p>
+
+            </section>
+        </section>
+        
+        <aside class = "page-content">
+            <h2>On this Page</h2>
+
+            <ul class="active">
+                <li><a href="#introduction-description">Description</a></li>
+                <li><a href="#introduction-documentation" onclick="sec(0)">Documentation</a></li>
+                <li><a href="#introduction-video" onclick="sec(1)">Video</a></li>
+
+                <li class="next" onclick="page(1)">Getting Started with Python <i class="fa-solid fa-arrow-right"></i></li>
+            </ul>
+
+            <ul>
+                <li><a href="#py-video">Python - Video</a></li>
+                <li><a href="#what-is">What is a Programming Language?</a></li>
+                <li><a href="#why-py">Why Python?</a></li>
+                <li><a href="#py-use">Usage of Python</a></li>
+                <li>
+                    <ol>
+                        <li><a href="#py-web">Web Development</a></li>
+                        <li><a href="#py-data">Data Science</a></li>
+                        <li><a href="#py-auto">Automation</a></li>
+                        <li><a href="#py-game">Game Development</a></li>
+                    </ol>
+                </li>
+
+                <li class="next" onclick="page(2)">Variables and Data Types <i class="fa-solid fa-arrow-right"></i></li>
+
+            </ul>
+        </aside>
+
+
+    </main>
+
+
+
+
+    
+    <footer>
+        <section class="fmain">
+
+            <section class="box1">
+                <div id="box1">
+                    <div class="fheading">
+                        <h3 style="text-transform: uppercase;">Quantum Leapers</h3>
+                        <div class="fline"></div>
+                    </div>
+                    <p>In a school corner, ten diverse students gather around a worn table. Some are reading novels, others working on equations or geometric shapes, while one types code on a keyboard.</p>
+                    
+                    <form class="hero_buttons2" action="https://www.facebook.com/profile.php?id=61561704838135">
+                        <div class="join2">
+                            <button href="https://www.facebook.com/profile.php?id=61561704838135" class="join_b2" type="submit">Join</button>
+                            <div class="blockh2"></div>
+                        </div>
+                    </form>
+                </div>
+            </section>
+            
+            <div class="breaker">
+                <div class="fbreak"></div>
+            </div>
+            
+            <section class="box2">
+                <div id="box2">
+                    <div class="link1">
+                        
+                        <a href="../" class="fhome" target="_blank">Home</a>
+                        <a href="#" class="fabout" target="_blank">About us</a>
+                    </div>
+                    <div class="link2">
+                        
+                        <a href="#" class="fevents" target="_blank">Learn</a>
+                        <a href="../members/" class="fecmember" target="_blank">Members</a>
+                    </div>
+                </div>
+            </section>
+            
+            <div class="breaker">
+                <div class="fbreak"></div>
+            </div>
+            
+            
+            <section class="box3">
+                <div id="box3">
+                    
+                    <div class="fheading2">
+                        <h3>Contact us</h3>
+                        <div class="fline"></div>
+                    </div>
+                    
+                    <a class="email" href="mailto:qleapers@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i> qleapers@gmail.com</a>
+                    <a href="https://www.facebook.com/profile.php?id=61561704838135" class="facebook" target="_blank"><i class="fa-brands fa-facebook"></i> Quantum Leapers</a>
+                    <a href="https://www.youtube.com/@QuantumLeapers-Grp2" class="yt" target="_blank"><i class="fa-brands fa-youtube"></i> Quantum Leapers</a>
+                    
+                </div>
+            </section>
+
+            <img class="fimg" src="../images/logo.jpg" alt="">
+        </section>
+        <p class="cc">Copyright © 2024 Quantum Leapers | All rights received by Quantum Leapers</p>
+    </footer>
+</body>
+<script src="https://unpkg.com/split-type"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+<script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+<script src="https://unpkg.com/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script> 
+<script src="./index.js"></script>
+</html>
